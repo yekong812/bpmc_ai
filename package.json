@@ -1,0 +1,38 @@
+{
+  "name": "bpmc_ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:init": "tsx scripts/init-db.ts",
+    "db:reindex": "tsx scripts/reindex.ts"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.19.0",
+    "bcryptjs": "^3.0.2",
+    "jose": "^6.0.11",
+    "mysql2": "^3.14.1",
+    "next": "16.3.5",
+    "openai": "^7.17.0",
+    "pdf-parse": "^2.4.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.4",
+    "typescript": "^5"
+  }
+}
